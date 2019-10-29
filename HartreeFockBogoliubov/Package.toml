@@ -1,0 +1,4 @@
+name = "HartreeFockBogoliubov"
+uuid = "804d6816-852b-11e8-156d-fdb6b2597e74"
+author = "Kyungmin Lee <kyungmin.lee.42@gmail.com>"
+repo = "https://github.com/kyungminlee/HartreeFockBogoliubov.jl.git"
