@@ -15,3 +15,7 @@ julia = "1"
 
 ["0.9"]
 julia = "1"
+
+["0.10"]
+julia = "1.4"
+TightBindingLattice = "0.3"
