@@ -1,0 +1,5 @@
+name = "MathExpr"
+uuid = "7e419fb4-4148-4024-80a8-2502d26d6b11"
+author = "Kyungmin Lee <kyungmin.lee.42@gmail.com>"
+version = "0.1.0"
+repo = "https://github.com/kyungminlee/MathExpr.jl.git"
