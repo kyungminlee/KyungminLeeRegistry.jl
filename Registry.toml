@@ -9,3 +9,4 @@ cf149b0a-e8f7-4f00-9ab4-03e4f5ec5cff = { name = "ExactDiagonalization", path = "
 bb017ab8-e7aa-48c1-8510-d0c63904c71d = { name = "MinimalPerfectHash", path = "MinimalPerfectHash" }
 804d6816-852b-11e8-156d-fdb6b2597e74 = { name = "HartreeFockBogoliubov", path = "HartreeFockBogoliubov" }
 8a267902-5e0e-44c3-8ef8-9b2b5c352816 = { name = "LatticeTools", path = "LatticeTools" }
+7e419fb4-4148-4024-80a8-2502d26d6b11 = { name = "MathExpr", path = "MathExpr" }
