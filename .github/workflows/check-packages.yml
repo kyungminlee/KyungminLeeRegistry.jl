@@ -8,15 +8,14 @@ on:
 
 jobs:
   check-packages:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest, macos-latest, windows-latest]
     steps:
       - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v1
         with:
           version: "1.5"
-      - run: |
-          julia -e "using Pkg; Pkg.update()"
-          julia -e "using Pkg; Pkg.Registry.add(RegistrySpec(url=\"https://github.com/kyungminlee/KyungminLeeRegistry.jl.git\"))"
-          julia -e "using Pkg; Pkg.add(\"TOML\")"
-          julia .github/workflows/install-packages.jl
-          julia -e "using Pkg; Pkg.precompile()"
+      - run: julia -e "using Pkg; Pkg.update()"
+      - run: julia -e "using Pkg; Pkg.Registry.add(RegistrySpec(url=\"https://github.com/kyungminlee/KyungminLeeRegistry.jl.git\"))"
+      - run: julia -e "using Pkg; Pkg.add(\"TOML\")"
+      - run: julia .github/workflows/install-packages.jl
+      - run: julia -e "using Pkg; Pkg.precompile()"
