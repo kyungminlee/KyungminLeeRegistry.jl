@@ -2,16 +2,18 @@ name: Check packages
 
 on:
   push:
+    branches: [ master ]
   pull_request:
+    branches: [ master ]
 
 jobs:
   check-packages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v1
         with:
-          version: 1.5
+          version: "1.5"
       - run: |
           pwd
           ls
