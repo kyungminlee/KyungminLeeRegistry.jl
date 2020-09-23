@@ -3,7 +3,7 @@ using Pkg
 registry = open("Registry.toml", "r") do io
     TOML.parse(io)
 end
-for (uuid, spec) in registry
+for (uuid, spec) in registry["packages"]
     Pkg.add(Pkg.PackageSpec(spec["name"], uuid))
 end
 Pkg.precompile()
