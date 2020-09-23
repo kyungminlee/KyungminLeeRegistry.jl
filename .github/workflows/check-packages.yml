@@ -18,6 +18,7 @@ jobs:
           julia -e "using Pkg; Pkg.Registry.add(RegistrySpec(url=\"https://github.com/kyungminlee/KyungminLeeRegistry.jl.git\"))"
           for directory in */
           do
-            pkgname="${i%%/}"
+            pkgname="${directory%%/}"
             julia -e "using Pkg; Pkg.add(\"$pkgname\")"
           done
+          julia -e "using Pkg; Pkg.precompile()"
