@@ -15,5 +15,9 @@ jobs:
         with:
           version: "1.5"
       - run: |
-          pwd
-          ls
+          julia -e "import Pkg; Pkg.Registry.add(RegistrySpec(url=\"https://github.com/kyungminlee/KyungminLeeRegistry.git\"))"
+          for directory in */
+          do
+            pkgname="${i%%/}"
+            julia -e "import Pkg; Pkg.add(\"$pkgname\")"
+          done
