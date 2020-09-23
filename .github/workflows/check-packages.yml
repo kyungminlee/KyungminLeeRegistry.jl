@@ -15,10 +15,12 @@ jobs:
         with:
           version: "1.5"
       - run: |
+          julia -e "using Pkg; Pkg.update()"
           julia -e "using Pkg; Pkg.Registry.add(RegistrySpec(url=\"https://github.com/kyungminlee/KyungminLeeRegistry.jl.git\"))"
           for directory in */
           do
             pkgname="${directory%%/}"
+            echo "$pkgname"
             julia -e "using Pkg; Pkg.add(\"$pkgname\")"
           done
           julia -e "using Pkg; Pkg.precompile()"
