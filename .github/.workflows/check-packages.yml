@@ -1,0 +1,17 @@
+name: Check packages
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-packages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: julia-actions/setup-julia@v1
+        with:
+          version: 1.5
+      - run: |
+          pwd
+          ls
