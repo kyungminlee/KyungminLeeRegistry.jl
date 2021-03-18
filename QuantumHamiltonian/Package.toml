@@ -1,0 +1,4 @@
+name = "QuantumHamiltonian"
+uuid = "ca2024c7-d5ca-47dc-aafc-db87cbdab76e"
+author = "Kyungmin Lee <kyungmin.lee.42@gmail.com>"
+repo = "https://github.com/kyungminlee/QuantumHamiltonian.jl.git"
