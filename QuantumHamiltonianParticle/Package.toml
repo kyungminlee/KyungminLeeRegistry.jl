@@ -1,0 +1,4 @@
+name = "QuantumHamiltonianParticle"
+uuid = "e0af54e9-8e56-4866-a784-1fe532970838"
+author = "Kyungmin Lee"
+repo = "https://github.com/kyungminlee/QuantumHamiltonianParticle.jl.git"
