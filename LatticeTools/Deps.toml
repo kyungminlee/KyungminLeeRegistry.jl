@@ -6,3 +6,6 @@ YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 MathExpr = "7e419fb4-4148-4024-80a8-2502d26d6b11"
+
+["0.10"]
+LinearAlgebraX = "9b3f67b0-2d00-526e-9884-9e4938f8fb88"
