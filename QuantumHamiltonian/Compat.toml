@@ -9,4 +9,4 @@ julia = "1.5-1"
 
 ["0.15"]
 julia = "1.5-1"
-LatticeTools = ">= 0.10"
+LatticeTools = "0.10"
