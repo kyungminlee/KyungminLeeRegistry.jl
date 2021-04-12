@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: julia-actions/setup-julia@v1
         with:
-          version: "1.5"
+          version: "1.6"
       - run: julia -e "using Pkg; Pkg.update()"
       - run: julia -e "using Pkg; Pkg.Registry.add(RegistrySpec(url=\"https://github.com/kyungminlee/KyungminLeeRegistry.jl.git\"))"
       - run: julia -e "using Pkg; Pkg.add(\"TOML\")"
