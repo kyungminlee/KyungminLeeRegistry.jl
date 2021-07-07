@@ -19,3 +19,7 @@ GroupTools = "fdaa9585-3dec-4727-b9cf-4a8cf08d7ff9"
 ["0.17"]
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 GroupTools = "fdaa9585-3dec-4727-b9cf-4a8cf08d7ff9"
+
+["0.18"]
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+GroupTools = "fdaa9585-3dec-4727-b9cf-4a8cf08d7ff9"
