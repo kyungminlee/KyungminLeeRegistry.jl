@@ -11,3 +11,4 @@ fdaa9585-3dec-4727-b9cf-4a8cf08d7ff9 = { name = "GroupTools", path = "GroupTools
 7e419fb4-4148-4024-80a8-2502d26d6b11 = { name = "MathExpr", path = "MathExpr" }
 ca2024c7-d5ca-47dc-aafc-db87cbdab76e = { name = "QuantumHamiltonian", path = "QuantumHamiltonian" }
 e0af54e9-8e56-4866-a784-1fe532970838 = { name = "QuantumHamiltonianParticle", path = "QuantumHamiltonianParticle" }
+3017c631-05ab-49d4-ba00-44a31b8d5f6d = { name = "FiniteTemperatureLanczos", path="FiniteTemperatureLanczos" }
